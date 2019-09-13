@@ -1,8 +1,8 @@
 {
-  "name": "open-source-typescript-template",
+  "name": "@jupiterone/jupiter-change-management-client",
   "version": "0.1.0",
-  "description": "A template so I don't have to piece all of this together again.",
-  "main": "dist/index.js",
+  "description": "A Node change management helper.",
+  "main": "dist/changeManagementClient.js",
   "files": [
     "dist"
   ],
@@ -11,15 +11,18 @@
     "access": "public"
   },
   "scripts": {
-    "build": "yarn lint && rm -rf dist && tsc --declaration",
+    "build": "yarn lint && rm -rf dist && tsc --project tsconfig.dist.json --declaration",
     "test": "jest",
-    "lint": "eslint src --ext .ts",
+    "lint": "eslint src test --ext .ts",
     "format": "prettier --write '**/*.{ts,js,json,md}'"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@jupiterone/jupiterone-client-nodejs": "0.15.0"
+  },
   "devDependencies": {
     "@types/jest": "^24.0.18",
     "@types/node": "~8.10.0",
+    "@types/uuid": "^3.4.5",
     "@typescript-eslint/eslint-plugin": "^2.2.0",
     "@typescript-eslint/parser": "^2.2.0",
     "eslint": "^6.3.0",
