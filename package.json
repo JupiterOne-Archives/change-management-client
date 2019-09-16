@@ -1,5 +1,5 @@
 {
-  "name": "@jupiterone/jupiter-change-management-client",
+  "name": "@jupiterone/change-management-client",
   "version": "0.1.0",
   "description": "A Node change management helper.",
   "main": "dist/changeManagementClient.js",
