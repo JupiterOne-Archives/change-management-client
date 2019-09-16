@@ -53,8 +53,8 @@ test("changeManagementClient", async () => {
         commitRange: {
           account_uuid: "jupiteronedemo",
           repo_uuid: "bitbucket-integration-demo",
-          source: "1b744fb915e60e2f003069d7321b789aedaf1ac7",
-          destination: "6410cfc63b5aad99db0b9ce895752f279c66e200",
+          source: "6410cfc63b5aad99db0b9ce895752f279c66e200",
+          destination: "1b744fb915e60e2f003069d7321b789aedaf1ac7",
         },
         result: demoCommitRange,
       },
@@ -62,8 +62,8 @@ test("changeManagementClient", async () => {
         commitRange: {
           account_uuid: "pipeline",
           repo_uuid: "something-pipeline",
-          source: "0f1485a2f5527aa9f47f21c1f2bc09e18c7823ab",
-          destination: "39fd5b991115237c1ab50f7fd5b99a3d8843b2b3",
+          source: "39fd5b991115237c1ab50f7fd5b99a3d8843b2b3",
+          destination: "0f1485a2f5527aa9f47f21c1f2bc09e18c7823ab",
         },
         result: pipelineCommitRange,
       },
