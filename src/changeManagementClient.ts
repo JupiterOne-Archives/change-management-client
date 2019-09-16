@@ -59,8 +59,8 @@ export class JupiterOneChangeManagementClient {
           account_uuid: proposedRevision.username,
           repo_uuid: proposedRevision.repoSlug,
           /* eslint-enable @typescript-eslint/camelcase */
-          source: proposedRevision.sha,
-          destination: approvedRevision.sha,
+          source: approvedRevision.sha,
+          destination: proposedRevision.sha,
         },
       )) as CommitRangeIngestionResults;
 
