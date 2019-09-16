@@ -1,7 +1,7 @@
 {
   "name": "@jupiterone/change-management-client",
   "version": "0.1.0",
-  "description": "A Node change management helper.",
+  "description": "A JupiterOne client that builds change management verdicts.",
   "main": "dist/changeManagementClient.js",
   "files": [
     "dist"
